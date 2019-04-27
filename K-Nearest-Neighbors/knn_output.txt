@@ -1,0 +1,10 @@
+4.47213595499958
+2.0
+4.47213595499958
+2.0
+2.8284271247461903
+4.0
+#k nearest points
+['y', 'y', 'n']
+#final class for chosen point
+y
