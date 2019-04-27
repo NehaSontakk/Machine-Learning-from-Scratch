@@ -1,4 +1,5 @@
-##Files
+FILE DETAILS
+
 1.  Initial_data.png 
 Contains the initial visualization of data. Data taken with only two dimensions.
 
