@@ -8,3 +8,12 @@ PC1 in the figure shows the direction of the most variation in data. Since we ha
 
 3.  pca_output.txt
 File gives all the step wise outputs required, new points towards the end are the new coordinates with reduced dimensions.
+
+
+MATH
+
+1.  Math Concepts Explained
+https://www.youtube.com/watch?v=FgakZw6K1QQ
+
+2.  Random Example
+https://www.youtube.com/watch?v=VzPpJXISz-E
