@@ -1,4 +1,5 @@
 from sklearn.preprocessing import LabelEncoder
+#sklearn just for encoding
 import pandas as pd
 import numpy as np
 
