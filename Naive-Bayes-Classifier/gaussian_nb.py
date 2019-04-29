@@ -1,4 +1,4 @@
-#Decision Trees
+#Gaussian Naive Bayes from scratch
 
 #PREPROCESSING
 
