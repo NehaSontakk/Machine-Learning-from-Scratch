@@ -107,7 +107,7 @@ def use_predict(summaries,testcase):
 		predictions.append(result)
 	return predictions
 
-
+#test data is : Age <21 , Income is high, gender is male , marital status is married
 test_data = np.array([1,0,1,0,'?'])
 test_data = np.reshape(-1,1)
 
