@@ -1,0 +1,43 @@
+   Id    Age  Income  Gender Marital-Status Label
+0   1    <21    High    Male         Single    No
+1   2    <21    High    Male        Married    No
+2   3  21-35    High    Male         Single   Yes
+3   4    >35  Medium    Male         Single   Yes
+4   5    >35     Low  Female         Single   Yes
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 14 entries, 0 to 13
+Data columns (total 6 columns):
+Id                14 non-null int64
+Age               14 non-null object
+Income            14 non-null object
+Gender            14 non-null object
+Marital-Status    14 non-null object
+Label             14 non-null object
+dtypes: int64(1), object(5)
+memory usage: 744.0+ bytes
+None
+     Age  Income  Gender Marital-Status Label
+0    <21    High    Male         Single    No
+1    <21    High    Male        Married    No
+2  21-35    High    Male         Single   Yes
+3    >35  Medium    Male         Single   Yes
+4    >35     Low  Female         Single   Yes
+   Age  Income  Gender  Marital-Status  Label
+0    1       0       1               1      0
+1    1       0       1               0      0
+2    0       0       1               1      1
+3    2       2       1               1      1
+4    2       1       0               1      1
+
+Seperated by class:
+{0: [array([1, 0, 1, 1, 0]), array([1, 0, 1, 0, 0]), array([2, 1, 0, 0, 0]), array([1, 2, 1, 1, 0]), array([2, 2, 1, 0, 0])], 1: [array([0, 0, 1, 1, 1]), array([2, 2, 1, 1, 1]), array([2, 1, 0, 1, 1]), array([0, 1, 0, 0, 1]), array([1, 1, 0, 0, 1]), array([2, 2, 0, 1, 1]), array([1, 2, 0, 0, 1]), array([0, 2, 1, 0, 1]), array([0, 0, 0, 1, 1])]}
+
+Mean and Standard deviations for each class:
+{0: [(1, 0.7071067811865476), (1, 1.0), (0, 1.0), (0, 0.7071067811865476)], 1: [(0, 1.3228756555322954), (1, 0.8660254037844386), (0, 0.6123724356957945), (0, 0.7905694150420949)]}
+
+label and probability is: 0 2.80195815187e-05
+label and probability is: 1 0.000282447226085
+
+[1]
+
+According to the test data person buys the item
