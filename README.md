@@ -1,16 +1,25 @@
 # Machine-Learning-from-Scratch: Contents
 
-##Regression:
+## Regression:
 
 Linear Regression from scratch with a single attribute.
 
-##Bayesian:
+## Bayesian:
 
 Naive Bayes Classifier
 
 Gaussian Naive Bayes Classifier
 
-Dimensionality Reduction
-Decision Trees
-Instance Based
-Clustering
+## Dimensionality Reduction:
+
+Linear Disciminant Analysis
+
+Prinipal Component Analysis
+
+## Instance Based:
+
+K-Means Algorithm
+
+## Clustering:
+
+K-Nearest-Neighbors 
