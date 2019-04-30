@@ -1,7 +1,15 @@
-# Machine-Learning-from-Scratch
+# Machine-Learning-from-Scratch: Contents
 
-Regression
-Bayesian
+##Regression:
+
+Linear Regression from scratch with a single attribute.
+
+##Bayesian:
+
+Naive Bayes Classifier
+
+Gaussian Naive Bayes Classifier
+
 Dimensionality Reduction
 Decision Trees
 Instance Based
