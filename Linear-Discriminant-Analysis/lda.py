@@ -141,10 +141,14 @@ import matplotlib.pyplot as plt
 
 color1 = ['r','g','b']
 for i in range(len(np.unique(Y))):
+	plt.scatter(x=X[:,0].real[Y==i],y=X[:,1].real[Y==i],color = color1[i])
+plt.title('Original Points')
+plt.show()
+for i in range(len(np.unique(Y))):
 	plt.scatter(x=Xlda[:,0].real[Y==i],y=Xlda[:,1].real[Y==i],color = color1[i])
 plt.xlabel('LD1')
 plt.ylabel('LD2')
-
+plt.title('New Points')
 plt.show()
 
 #Conclusion
