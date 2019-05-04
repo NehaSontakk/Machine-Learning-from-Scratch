@@ -23,3 +23,7 @@ K-Means Algorithm
 ## Clustering:
 
 K-Nearest-Neighbors 
+
+## Neural Networks:
+
+Perceptron
