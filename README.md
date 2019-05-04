@@ -26,4 +26,4 @@ K-Nearest-Neighbors
 
 ## Neural Networks:
 
-Perceptron
+Perceptron with Backpropagation
