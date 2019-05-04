@@ -1,0 +1,82 @@
+####### OR Gate #######
+
+Inputs: [[0 0 0]
+ [0 1 0]
+ [1 0 0]
+ [1 1 0]
+ [0 1 1]
+ [1 0 1]
+ [1 1 1]]
+Choose between 
+1) or 
+2) and 
+3) nor 
+4) nand
+1
+Weights: 	[[0.53107507]
+ [0.20136708]
+ [0.16182406]]
+Testcase sigmoid output [0.99204404]
+Final output for testcase [[0 0 1]] is 1
+
+####### AND Gate #######
+Inputs: [[0 0 0]
+ [0 1 0]
+ [1 0 0]
+ [1 1 0]
+ [0 1 1]
+ [1 0 1]
+ [1 1 1]]
+Choose between 
+1) or 
+2) and 
+3) nor 
+4) nand
+2
+Weights: 	[[0.35465594]
+ [0.76235124]
+ [0.10076822]]
+Testcase sigmoid output [0.00713491]
+Final output for testcase [[0 0 1]] is 0
+
+####### NOR Gate #######
+
+Inputs: [[0 0 0]
+ [0 1 0]
+ [1 0 0]
+ [1 1 0]
+ [0 1 1]
+ [1 0 1]
+ [1 1 1]]
+Choose between 
+1) or 
+2) and 
+3) nor 
+4) nand
+3
+Weights: 	[[0.1781752 ]
+ [0.40242621]
+ [0.74102281]]
+Testcase sigmoid output [0.00051168]
+Final output for testcase [[0 0 1]] is 0
+
+####### NAND Gate #######
+
+Inputs: [[0 0 0]
+ [0 1 0]
+ [1 0 0]
+ [1 1 0]
+ [0 1 1]
+ [1 0 1]
+ [1 1 1]]
+Choose between 
+1) or 
+2) and 
+3) nor 
+4) nand
+4
+Weights: 	[[0.95002286]
+ [0.5888129 ]
+ [0.0285471 ]]
+Testcase sigmoid output [0.65489089]
+Final output for testcase [[0 0 1]] is 1
